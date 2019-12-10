@@ -40,7 +40,7 @@ const IndexPage = () => {
             timeToRead,
             fields: { slug }
           },
-        }) => (
+        },i) => (
           <PostItem
             slug={slug}
             background={background}
@@ -49,6 +49,7 @@ const IndexPage = () => {
             timeToRead={timeToRead}
             title={title}
             description={description}
+            key={i}
           />
         )
       )}
