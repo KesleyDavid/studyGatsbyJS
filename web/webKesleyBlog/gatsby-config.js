@@ -57,6 +57,7 @@ module.exports = {
             },
           },
           `gatsby-remark-lazy-load`,
+          `gatsby-remark-prismjs`, // PPrismJs => edem sempre para ser o ultimo do remark
         ],
       },
     },
