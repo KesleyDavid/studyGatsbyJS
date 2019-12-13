@@ -6,7 +6,10 @@ import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO
+      title="Sobre mim"
+      description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
+    />
     <h1>About</h1>
   </Layout>
 );
