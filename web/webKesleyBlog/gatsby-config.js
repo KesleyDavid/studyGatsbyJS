@@ -8,6 +8,7 @@ module.exports = {
     position: `Development Manager`,
     description: `A blog about backend/frontend development and other cool stuff.`,
     author: `@kesley_david`,
+    siteUrl: `https://kesley.dev`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
